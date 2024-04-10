@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO", "POO\POO.csproj", "{A118A00F-9152-4D67-BBE6-07DF6B62BCC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchrony", "Asynchrony\Asynchrony.csproj", "{D55CDE1B-57F2-4208-ABD8-6A02DF918292}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchrony", "Asynchrony\Asynchrony.csproj", "{D55CDE1B-57F2-4208-ABD8-6A02DF918292}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{AD663800-A95F-455D-9D40-0AE5C9603A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{AD663800-A95F-455D-9D40-0AE5C9603A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{7A817590-31C3-4458-A7C0-F2DE42C196FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{AD663800-A95F-455D-9D40-0AE5C9603A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD663800-A95F-455D-9D40-0AE5C9603A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD663800-A95F-455D-9D40-0AE5C9603A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A817590-31C3-4458-A7C0-F2DE42C196FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A817590-31C3-4458-A7C0-F2DE42C196FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A817590-31C3-4458-A7C0-F2DE42C196FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A817590-31C3-4458-A7C0-F2DE42C196FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
