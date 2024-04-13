@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchrony", "Asynchrony\As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{AD663800-A95F-455D-9D40-0AE5C9603A62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{7A817590-31C3-4458-A7C0-F2DE42C196FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{7A817590-31C3-4458-A7C0-F2DE42C196FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linqd", "Linq\Linqd.csproj", "{7D44A6D8-06A4-41A4-B237-5F79F36FA2F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore", "EFCore\EFCore.csproj", "{4EFAF4FC-4412-4422-A1CC-84E25E85C37D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{7A817590-31C3-4458-A7C0-F2DE42C196FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A817590-31C3-4458-A7C0-F2DE42C196FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A817590-31C3-4458-A7C0-F2DE42C196FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D44A6D8-06A4-41A4-B237-5F79F36FA2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D44A6D8-06A4-41A4-B237-5F79F36FA2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D44A6D8-06A4-41A4-B237-5F79F36FA2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D44A6D8-06A4-41A4-B237-5F79F36FA2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFAF4FC-4412-4422-A1CC-84E25E85C37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFAF4FC-4412-4422-A1CC-84E25E85C37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFAF4FC-4412-4422-A1CC-84E25E85C37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFAF4FC-4412-4422-A1CC-84E25E85C37D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
