@@ -42,6 +42,7 @@ await task;
 Console.WriteLine("He terminado la tarea");
 */
 
+/*
 var t = new Tasks();
 var ts = t.getTask();
 
@@ -50,3 +51,8 @@ ts.Start();
 await t.InitTask();
 
 Console.WriteLine("Termine de trabajar");
+*/
+
+var program = new AsyncBreakFast();
+//program.Run();
+await program.RunAsync();
