@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linqd", "Linq\Linqd.csproj", "{7D44A6D8-06A4-41A4-B237-5F79F36FA2F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore", "EFCore\EFCore.csproj", "{4EFAF4FC-4412-4422-A1CC-84E25E85C37D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreD", "EFCore\EFCoreD.csproj", "{4EFAF4FC-4412-4422-A1CC-84E25E85C37D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
