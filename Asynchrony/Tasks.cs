@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace Asynchrony
 {
-    internal class Tasks
+  internal class Tasks
+  {
+    public Tasks() { }
+    public async Task InitTask()
     {
-        public Tasks() { }
-        public async Task InitTask()
-        {
-            await Task.Run(() => 
-            {
-                Thread.Sleep(1000);
-                Console.WriteLine("Empenzado la tarea");
-            });
-        }
-
-        public Task getTask()
-        {
-            return new Task(() => 
-            {
-                Console.WriteLine("www");
-            });
-        }
+      await Task.Run(() =>
+      {
+        Thread.Sleep(1000);
+        Console.WriteLine("Empenzado la tarea");
+      });
     }
+
+    public Task getTask()
+    {
+      return new Task(() =>
+      {
+        Console.WriteLine("www");
+      });
+    }
+  }
 }
